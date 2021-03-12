@@ -1,0 +1,11 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "@id": "special_time_problems",
+    "ui": {
+        "inputType": "text"
+    },
+    "question": "What problems/questions did you have in special time today?"
+}

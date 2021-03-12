@@ -1,0 +1,22 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "daily_questionnaire": "https://raw.githubusercontent.com/hotavocado/GDQ-CM-ET/master/activities/daily_questionnaire/items/",
+        "special_time": {
+            "@id": "daily_questionnaire:special_time",
+            "@type": "@id"
+        },
+        "special_time_activities": {
+            "@id": "daily_questionnaire:special_time_activities",
+            "@type": "@id"
+        },
+        "special_time_problems": {
+            "@id": "daily_questionnaire:special_time_problems",
+            "@type": "@id"
+        },
+        "thank_you": {
+            "@id": "daily_questionnaire:thank_you",
+            "@type": "@id"
+        }
+    }
+}

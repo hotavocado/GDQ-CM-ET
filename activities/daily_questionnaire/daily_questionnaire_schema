@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/hotavocado/GDQ-CM-ET/master/activities/daily_questionnaire/daily_questionnaire_context"
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "daily_questionnaire_schema",
+    "skos:prefLabel": "Daily Questionnaire",
+    "schema:description": "Answer a daily questionnaire about special time with your child",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "scoringLogic": {},
+    "ui": {
+        "addProperties": [
+            {
+                "variableName": "special_time",
+                "isAbout": "special_time",
+                "isVis": true
+            },
+            {
+                "variableName": "special_time_activities",
+                "isAbout": "special_time_activities",
+                "isVis": "special_time == 1"
+            },
+            {
+                "variableName": "special_time_problems",
+                "isAbout": "special_time_problems",
+                "isVis": "special_time == 1"
+            },
+            {
+                "variableName": "thank_you",
+                "isAbout": "thank_you",
+                "isVis": true
+            }
+        ],
+        "order": [
+            "special_time",
+            "special_time_activities",
+            "special_time_problems",
+            "thank_you"
+        ],
+        "shuffle": false
+    }
+}

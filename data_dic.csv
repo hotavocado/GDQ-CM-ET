@@ -1,0 +1,5 @@
+Variable / Field Name,Section Header,Form Name,Form Display Name,Form Note,headerImage,headerImageSize,Field Type,multipleChoice,Allow,Field Label,"Choices, Calculations, OR Slider Labels",minVal,maxVal,Branching Logic (Show field only if...)
+special_time,,daily_questionnaire,Daily Questionnaire,Answer a daily questionnaire about special time with your child,,,radio,,autoAdvance,Did you spend 5 or more minutes in special time today?,"1, Yes | 0, No",,,
+special_time_activities,,daily_questionnaire,Daily Questionnaire,Answer a daily questionnaire about special time with your child,,,text,,,What activities did you do in special time today?,,,,[special_time] = 1
+special_time_problems,,daily_questionnaire,Daily Questionnaire,Answer a daily questionnaire about special time with your child,,,text,,,What problems/questions did you have in special time today?,,,,[special_time] = 1
+thank_you,,daily_questionnaire,Daily Questionnaire,Answer a daily questionnaire about special time with your child,,,markdown-message,,,"Thanks for completing your daily questionnaire on MindLogger, see you again tomorrow!",,,,
