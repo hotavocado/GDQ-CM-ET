@@ -5,7 +5,7 @@
     ],
     "@type": "reproschema:Activity",
     "@id": "daily_questionnaire_schema",
-    "skos:prefLabel": "Daily Questionnaire",
+    "skos:prefLabel": "Special Time",
     "schema:description": "Answer a daily questionnaire about special time with your child",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",

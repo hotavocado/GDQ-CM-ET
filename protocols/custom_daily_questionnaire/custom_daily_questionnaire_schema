@@ -5,7 +5,7 @@
     ],
     "@type": "reproschema:Protocol",
     "@id": "custom_daily_questionnaire_schema",
-    "skos:prefLabel": "Daily Questionnaire (E.T.)",
+    "skos:prefLabel": "Special Time Daily Questionnaire",
     "schema:description": "Answer a daily questionnaire about special time with your child",
     "schema:image": "https://raw.githubusercontent.com/hotavocado/GDQ-CM-ET/master/images/CDQ.png",
     "landingPage": "https://raw.githubusercontent.com/hotavocado/GDQ-CM-EI/main/protocols/custom_daily_questionnaire/README.md",
